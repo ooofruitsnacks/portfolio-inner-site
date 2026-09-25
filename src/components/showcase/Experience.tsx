@@ -10,71 +10,41 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Bring A Trailer</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://bringatrailer.com/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>www.bringatrailer.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Local Partnered Photographer</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Winter 2023 - Current</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    The only official photographer partnered with Bring A Trailer
+		    for the Detroit Metro Area, for a few years (City of Cars & I)
+		    were the only official partners but now a few more michiganders
+	            have joined the club :)
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                            Responsible for the oversight, curation, and execution of
+			    the photo and auction process for Bring A Trailer customers.
+			    This entire process includes communicating and coordinating 
+			    photo shoots, providing customers with completed picture galleries
+	    		    (resizing,formatting,color-correction,renaming,etc.) to meet
+			    strict guide lines along with the representation of the car 
+			    during the auction period. 
                         </p>
                     </li>
                 </ul>
@@ -82,55 +52,51 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>City of Cars</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://cityofcars.com/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>www.cityofcars.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Purchasing Agent</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Fall 2019 - Current</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                    My job responsibilities have changed over the years but 
+		    have included: the oversight and management of incoming
+		    and out-going inventory, oversight of building maintenance,
+		    customer relations, inventory and social media photography, 
+		    social media curation and inventory purchasing.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                            Kelly Blue Book Partner
                         </p>
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                            NIADA 2019 National Quality Dealer of the Year Award
                         </p>
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                            Bring A Trailer Partner
                         </p>
                     </li>
                     <li>
                         <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                            Family owned dealership since 1994!
                         </p>
                     </li>
                 </ul>
@@ -138,99 +104,99 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>Personal Projects</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://a-creative.website/'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>www.a-creative.website</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Programming Projects</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>and blog!</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                    Feel free to visit my other website to check out
+		    what I'm working on. I try to make all my personal
+		    projects open source so others can use them, follow
+		    along or create their own version.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
+                <h3 style={styles.indent}>My Current Projects:</h3>
                 <ul>
                     <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                        <p>• FuzzyBuddyFarms</p>
                         <p>
                             [{' '}
                             <a
-                                href="https://www.sho.com/ray-donovan"
+                                href="https://github.com/ooofruitsnacks/fuzzybuddyfarms"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                SHOWTIME
+                                GITHUB REPO
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                        <p>• turtle</p>
                         <p>
                             [{' '}
                             <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
+                                href="https://github.com/ooofruitsnacks/turtle"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                SHOWTIME
+                                GITHUB REPO
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Hightown</p>
+                        <p>• Project E2S</p>
                         <p>
                             [{' '}
                             <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
+                                href="https://a-creative.website"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                STARZ
+                                IN DEVELOPEMENT
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• Bull</p>
+                        <p>• My other website and blog</p>
                         <p>
                             [{' '}
                             <a
-                                href="https://www.cbs.com/shows/bull/"
+                                href="https://a-creative.website/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                CBS
+                                ACS
                             </a>{' '}
                             ]
                         </p>
                     </li>
                     <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
+                        <p>• Youtube Vids</p>
                         <p>
                             [{' '}
                             <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
+                                href="https://www.youtube.com/@Internetpimp"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                truTV
+                                Youtube
                             </a>{' '}
                             ]
                         </p>

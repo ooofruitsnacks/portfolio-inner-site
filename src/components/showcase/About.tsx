@@ -17,12 +17,14 @@ const About: React.FC<AboutProps> = (props) => {
             <div className="text-block">
                 <p>
                     I am 26 years old and I live in the United States.
-		    I am very passionate about open source projects,ferrari and creating. 
+		    I am very passionate about open source projects,ferrari and creating.
+		    This is my personal website that I will use as my resume, feel free 
+		    to check out my blog as well :)
                 </p>
                 <br />
                 <p>
                     Thanks for taking the time to check my website out. HUGE Special thanks to
-		    Henry Heffernan. 
+		    Henry Heffernan and all the other open source creators. 
                     Feel free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
                     <a href="mailto:467487@pm.me">
