@@ -61,7 +61,7 @@ const ShutdownSequence: React.FC<ShutdownSequenceProps> = ({
     (HHOS01/13:200:60099) [SOCKET_FAILED_TO_RESPOND] Connection Refused: Reconnecting... [${getTime()}:14]
     FATAL ERROR: (HHOS01/13:200:60099) Server became unresponsive and the transfer failed. Unable to shutdown computer. 
     |
-    Aborting shutdown sequence and rebooting.
+    Whoopsie! This shit failed! Boot this MF back up pronto!
 
 
 
