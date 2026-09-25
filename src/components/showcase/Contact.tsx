@@ -1,8 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import colors from '../../constants/colors';
-import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
-import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
 
 export interface ContactProps {}
@@ -57,7 +55,7 @@ const Contact: React.FC<ContactProps> = (props) => {
         try {
             setIsLoading(true);
             const res = await fetch(
-                'https://api.henryheffernan.com/api/contact',
+                'https://api.a-creative.studio/api/contact',
                 {
                     method: 'POST',
                     headers: {
@@ -116,15 +114,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <div style={styles.socials}>
                     <SocialBox
                         icon={ghIcon}
-                        link={'https://github.com/henryjeff'}
-                    />
-                    <SocialBox
-                        icon={inIcon}
-                        link={'https://www.linkedin.com/in/henryheffernan/'}
-                    />
-                    <SocialBox
-                        icon={twitterIcon}
-                        link={'https://twitter.com/henryheffernan'}
+                        link={'https://github.com/ooofruitsnacks'}
                     />
                 </div>
             </div>
@@ -138,8 +128,8 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:467487@pm.me">
+                        467487@pm.me
                     </a>
                 </p>
 
