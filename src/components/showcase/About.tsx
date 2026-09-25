@@ -12,23 +12,21 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Owen Edwards</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I am 26 years old and I live in the United States.
+		    I am very passionate about open source projects,ferrari and creating. 
                 </p>
                 <br />
                 <p>
-                    Thank you for taking the time to check out my portfolio. I
-                    really hope you enjoy exploring it as much as I enjoyed
-                    building it. If you have any questions or comments, feel
-                    free to contact me using{' '}
+                    Thanks for taking the time to check my website out. HUGE Special thanks to
+		    Henry Heffernan. 
+                    Feel free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:467487@pm.me">
+                        467487@pm.me
                     </a>
                 </p>
             </div>
@@ -37,14 +35,12 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    I have always loved creating. This website is an 
+		    extension of that creativity for you all to enjoy :)
+		    I grew up also loving cars, Ferrari and motorsports. From a 
+	    	    very young age I adored the likes of Valentino Rossi and
+		    Michael Schumacher. The bright colors and designs from Aldo
+		    Drudi for Valentino Rossi always drew my attention. 
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -58,32 +54,19 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                    I was always interested in technology and programming growing
+		    up but I didn't have access to explore those interests. My 
+		    brother built his own PC when we were in middle school and I
+		    always thought that was really cool. My first expsoure to 
+		    programming was with scratch lol and then I started to explore
+		    it as a hobby to develop my personal passion projects.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    I had a simple chromebook for a long time that I used to program
+		    but then my boss gave me their unused macbook and that was my first
+	            REAL laptop. That made my hobby for programming take off because I
+		    wanted to push the hardware to it's limits instead of wasting it.
                 </p>
                 <br />
                 <br />
@@ -99,30 +82,21 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
-                            hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
-                            playing video games.
+                            Beyond programming I really love motorsports,
+			    Ferrari, photography, mountain biking, hiking,
+			    drawing, and exploring nature.
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            I also enjoy creating graphic art, graphic designs,
+			    collecting model cars, watching movies, and baking.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me (center) September 2005
                             </sub>
                         </p>
                     </div>
@@ -130,18 +104,17 @@ const About: React.FC<AboutProps> = (props) => {
                 <br />
                 <br />
                 <p>
-                    Thanks for reading about me! I hope that you enjoy exploring
-                    the rest of my portfolio website and everything it has to
-                    offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
+                    Thanks for reading and exploring my website, feel
+		    free to check out my other website for all my 
+	            person project updates and blog posts {' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://a-creative.website"
                     >
-                        @henryheffernan
+                        @a-creative-website
                     </a>{' '}
-                    Good luck and have fun!
+                    Special thanks to Henry Heffernan.
                 </p>
                 <br />
                 <p>
@@ -149,8 +122,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:467487@pm.me">
+                        467487@pm.me
                     </a>
                 </p>
             </div>
