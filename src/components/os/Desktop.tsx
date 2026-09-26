@@ -26,7 +26,7 @@ const APPLICATIONS: {
 } = {
      computer: {
          key: 'computer',
-         name: 'This Computer',
+         name: 'My Blog | ACS',
          shortcutIcon: 'computerBig',
          component: ThisComputer,
      },
@@ -56,7 +56,7 @@ const APPLICATIONS: {
     },
     henordle: {
         key: 'henordle',
-        name: 'Henordle',
+        name: 'Wordle',
         shortcutIcon: 'henordleIcon',
         component: Henordle,
     },
