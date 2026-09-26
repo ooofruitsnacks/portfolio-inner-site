@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Colors from '../../constants/colors';
 import { Icon } from '../general';
 // import { } from '../general';
-import Home from '../site/Home';
+// import Home from '../site/Home';
 // import Window from './Window';
 
 export interface ToolbarProps {
