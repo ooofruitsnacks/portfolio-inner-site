@@ -18,6 +18,7 @@ const WORDS = [
     'three',
     'years',
     'place',
+    'rarri',
     'sound',
     'great',
     'again',
