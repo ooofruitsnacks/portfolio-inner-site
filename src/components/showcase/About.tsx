@@ -17,14 +17,22 @@ const About: React.FC<AboutProps> = (props) => {
             <div className="text-block">
                 <p>
                     I am 26 years old and I live in the United States.
-		    I am very passionate about open source projects,ferrari and creating.
+		    I am very passionate about open source projects,Ferrari and photography.
 		    This is my personal website that I will use as my resume, feel free 
-		    to check out my blog as well :)
+		    to check out my blog as well on my other website{' '}
+                    <a
+		        rel="noreferrer"
+                        target="_blank"
+                        href="https://a-creative.website"
+                    >
+                        @a-creative-website
+                    </a>{' '}
+		    :)
                 </p>
                 <br />
                 <p>
-                    Thanks for taking the time to check my website out. HUGE Special thanks to
-		    Henry Heffernan and all the other open source creators. 
+                    Thanks for taking the time to check this website out and a HUGE special thanks
+		    to Henry Heffernan.
                     Feel free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
                     <a href="mailto:467487@pm.me">
@@ -37,12 +45,19 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    I have always loved creating. This website is an 
-		    extension of that creativity for you all to enjoy :)
-		    I grew up also loving cars, Ferrari and motorsports. From a 
-	    	    very young age I adored the likes of Valentino Rossi and
-		    Michael Schumacher. The bright colors and designs from Aldo
-		    Drudi for Valentino Rossi always drew my attention. 
+                    I have always loved creating, as a kid I would always keep
+		    myself busy with drawing cars or batman. This website is an 
+		    extension of that creativity for you all to enjoy :) I enjoy
+		    learning new ways to express my creative ideas and turning 
+	    	    those ideas into real projects. I grew up loving Ferrari and
+		    motorsports. From a very young age I adored the likes of 
+		    Valentino Rossi and Michael Schumacher. The bright colors and 
+		    designs from Aldo Drudi for Valentino Rossi always drew my attention.
+		    The bright, colorful, unique, and complex designs from Drudi
+		    inspired me from a young age and had a long lasting impact. 
+		    I love all aspects of creative design, from the actual art or
+		    item itself,to the material choices, the color palette, the 
+		    UI, the branding, the graphic design the execution, I love it all! 
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -59,16 +74,20 @@ const About: React.FC<AboutProps> = (props) => {
                     I was always interested in technology and programming growing
 		    up but I didn't have access to explore those interests. My 
 		    brother built his own PC when we were in middle school and I
-		    always thought that was really cool. My first expsoure to 
-		    programming was with scratch lol and then I started to explore
-		    it as a hobby to develop my personal passion projects.
+		    always thought that was really cool. Around that time I started
+		    to really fall in love with youtube and learning from random creators
+		    about cool projects. My first actual expsoure to programming was with 
+		    scratch lol and then I started to explore other languages as a hobby to 
+		    work on my personal projects.
                 </p>
                 <br />
                 <p>
                     I had a simple chromebook for a long time that I used to program
 		    but then my boss gave me their unused macbook and that was my first
-	            REAL laptop. That made my hobby for programming take off because I
-		    wanted to push the hardware to it's limits instead of wasting it.
+	            REAL laptop. That made my hobby for programming take off because it was
+		    much more powerful of a machine than my chromebook and it was perfect timing.
+		    My chromebook pooped on me and stopped working so I was in need of something,
+	            thanks Jerrianne and Otto for the laptop! (and Evan)
                 </p>
                 <br />
                 <br />
@@ -84,14 +103,15 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond programming I really love motorsports,
-			    Ferrari, photography, mountain biking, hiking,
-			    drawing, and exploring nature.
+                            Beyond programming I also enjoy motorsports, Ferrari, photography, 
+			    mountain biking, hiking, exploring nature, drawing, graphic art designs,
+			    collecting model cars, collecting Ferrari books, watching movies and baking.
                         </p>
                         <br />
                         <p>
-                            I also enjoy creating graphic art, graphic designs,
-			    collecting model cars, watching movies, and baking.
+                            I also really enjoy Raspberry Pi projects and the entire idea of SBC projects.
+			    I currently own many Pi devices and work on many personal Pi projects! I take alot
+			    of inspiration from Jeff Geerling and I love his work.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>

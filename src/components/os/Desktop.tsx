@@ -55,7 +55,7 @@ const APPLICATIONS: {
         component: Scrabble,
     },
     henordle: {
-        key: 'henordle',
+        key: 'wordle',
         name: 'Henordle',
         shortcutIcon: 'henordleIcon',
         component: Henordle,
