@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Colors from '../../constants/colors';
 import { Icon } from '../general';
 // import { } from '../general';
-// import Home from '../site/Home';
+import Home from '../site/Home';
 // import Window from './Window';
 
 export interface ToolbarProps {
@@ -96,7 +96,7 @@ const Toolbar: React.FC<ToolbarProps> = ({
                 >
                     <div style={styles.startWindowInner}>
                         <div style={styles.verticalStartContainer}>
-                            <p style={styles.verticalText}>HeffernanOS</p>
+                            <p style={styles.verticalText}>toolyOS</p>
                         </div>
                         <div style={styles.startWindowContent}>
                             <div style={styles.startMenuSpace} />
