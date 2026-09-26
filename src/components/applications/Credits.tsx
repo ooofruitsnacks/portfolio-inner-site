@@ -31,7 +31,7 @@ const CREDITS = [
         title: 'Special Thanks',
         rows: [
             ['Mom', 'Dad'],
-            ['Terry Davis'],
+            ['Terry Davis RIP'],
         ],
     },
     {
@@ -39,6 +39,7 @@ const CREDITS = [
         rows: [
             ['chomkerman', 'VLC'],
             ['Raspberry Pi', 'Jeff Geerling'],
+	    ['Valentino Rossi', 'Aldo Drudi']
         ],
     },
 ];
@@ -86,7 +87,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>Owen Edwards | ACS</p>
                 <br />
                 <br />
                 <br />
