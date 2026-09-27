@@ -28,11 +28,6 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 		    no networking needed. This can be done by loading a quantized LLM onto 
 		    a micro SD and using that as storage for the SBC.
                 </p>
-                <br />
-                <p>
-                    Make sure to check back as I add my other projects! :)
-                </p>
-            </div>
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
         </div>
