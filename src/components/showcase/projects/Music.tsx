@@ -24,7 +24,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <div className="text-block">
                 <p>
                     I like to explore new ideas. Currently I'm learning Odin, Zig,
-		    and markdown(don't laugh I know).
+		    and markdown lol.
                 </p>
                 <br />
                 <p>
