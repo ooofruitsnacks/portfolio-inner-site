@@ -26,7 +26,7 @@ const APPLICATIONS: {
 } = {
      computer: {
          key: 'computer',
-         name: 'My Blog | ACS',
+         name: 'a-creative.website',
          shortcutIcon: 'computerBig',
          component: ThisComputer,
      },

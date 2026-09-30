@@ -23,15 +23,13 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I like to explore new ideas and learn as much as I can about
-		    that field while doing so. Currently I'm learning Odin, Zig,
-		    markdown(don't laugh I know) and networking with UDP packets.
+                    I like to explore new ideas. Currently I'm learning Odin, Zig,
+		    and markdown(don't laugh I know).
                 </p>
                 <br />
                 <p>
                     I'm sure there are better ways I could be doing something or 
-		    structure my code but I don't care. I'm doing this all for shits
-		    and giggles to learn. I'm just here to have fun :)
+		    structure my code but I'm still learning so give me a break.
                 </p>
                 <br />
                 <p>
