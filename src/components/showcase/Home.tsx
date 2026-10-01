@@ -17,24 +17,24 @@ const Home: React.FC<HomeProps> = (props) => {
         <div style={styles.page}>
             <div style={styles.header}>
                 <h1 style={styles.name}>Owen Edwards</h1>
-                <h2>Photographer | Developer | Historian | Dumbass</h2>
+                <h2>Automotive Photographer | Hobbyist Developer | Ferrari Historian</h2>
             </div>
             <div style={styles.buttons}>
-                <Link containerStyle={styles.link} to="about" text="ABOUT" />
+                <Link containerStyle={styles.link} to="about" text="ABOUT ME" />
                 <Link
                     containerStyle={styles.link}
                     to="experience"
-                    text="EXPERIENCE"
+                    text="MY EXPERIENCE"
                 />
                 <Link
                     containerStyle={styles.link}
                     to="projects"
-                    text="PROJECTS"
+                    text="ALL MY PROJECTS"
                 />
                 <Link
                     containerStyle={styles.link}
                     to="contact"
-                    text="CONTACT"
+                    text="CONTACT ME"
                 />
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>

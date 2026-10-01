@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import software from '../../assets/pictures/projects/software.gif';
-import art from '../../assets/pictures/projects/art.gif';
-import music from '../../assets/pictures/projects/music.gif';
 
 export interface ProjectsProps {}
 
@@ -67,12 +65,13 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
 const Projects: React.FC<ProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Projects</h1>
-            <h3>& Hobbies</h3>
+            <h1>Projects and Hobbies</h1>
+            <h3>Previous, Current, and Future Projects</h3>
             <br />
             <p>
                 Hello! Click through the different sections
-		to explore my previous projects.
+		to explore what I'm working on, what's planned for the future,
+		and what has already been finished.
 		Enjoy!
             </p>
             <br />
@@ -80,22 +79,22 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                 <ProjectBox
                     icon={software}
                     iconStyle={styles.computerIcon}
-                    title="Software Projects"
-                    subtitle="PROGRAMMING AND DEVELOPING"
+                    title="Previous Projects"
+                    subtitle="PROGRAMMING, IOT, DESIGN, AND RANDOM PROJECTS"
                     route="software"
                 />
                 <ProjectBox
-                    icon={music}
-                    iconStyle={styles.musicIcon}
-                    title="Current Studies"
-                    subtitle="LEARNING AND EXPLORING"
+                    icon={software}
+                    iconStyle={styles.computerIcon}
+                    title="Current Projects"
+                    subtitle="WHAT I'M WORKING ON CURRENTLY"
                     route="music"
                 />
                 <ProjectBox
-                    icon={art}
-                    iconStyle={styles.artIcon}
+                    icon={software}
+                    iconStyle={styles.computerIcon}
                     title="In Development"
-                    subtitle="CURRENT PROJECTS AND INVENTIONS"
+                    subtitle="CURRENT RESEARCH AND DEVELOPEMENT FOR FUTURE PROJECTS"
                     route="art"
                 />
             </div>

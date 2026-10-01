@@ -2,13 +2,6 @@ import React, { useState } from 'react';
 // @ts-ignore
 import house from '../../../assets/audio/house_master.mp3';
 // @ts-ignore
-import edge from '../../../assets/audio/edge_unmastered.mp3';
-// @ts-ignore
-import dnb from '../../../assets/audio/break.mp3';
-// @ts-ignore
-import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
-import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
-import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
 
 export interface MusicProjectsProps {}
@@ -18,8 +11,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 
     return (
         <div className="site-page-content">
-            <h1>Current Studies</h1>
-            <h3>What I'm Learnig</h3>
+            <h1>Current Projects</h1>
+            <h3>Programming, Developing, and Engineering Projects</h3>
             <br />
             <div className="text-block">
                 <p>
@@ -38,11 +31,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 		    guides for others to follow along.
                 </p>
                 <br />
-                <p>
-                    Below are some of my interests and what I'm learning currently, enjoy!
-                </p>
             </div>
-            <h2>Exploring The World Of Raspberry Pi</h2>
+            <h2>Raspberry Pi Pojects</h2>
             <br />
             <p>
                 I'm somewhat new to the world of SBC's but wow are they exciting! The
@@ -63,11 +53,17 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 		beginner friendly projects and products you can check out yourself.
             </p>
             <br />
+	    <h2>MPy-3 Player</h2>
             <p>
-                I've been trying to learn NeoVim and Vim motions. I see a lot of programmers
-		recommend using either vim or emacs but I pesonally went with NeoVim to try out.
-		I'm also a fan of nano and there is another newer project called VIS that I might
-		learn later on.
+                I've been developing a MP3 player called MPy-3 using a Raspberry Pi Zero 2W and the Pimoroni
+		PIM482 Pirate Audio as the hardware. I wrote my own code for the media playing and album
+		artwork. I wasn't a fan of the examples you can build online because everything required
+		an internet connection and Mopidy. Mopidy isn't bad by any means but I want something that
+		doesn't require a connection, something you can simply back songs/pdocast episodes up to a 
+		micro SD card and then listen away! It doesn't have to be difficult! Shout out to Henry Heffernan,
+		listen to his song below or on the MPy-3. As you can probably guess, It's written in python because
+		that was the easiest to get working with the hardware. I might do a C port later on if python isn't
+		fast enough.
             </p>
             <br />
 

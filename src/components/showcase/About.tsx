@@ -19,7 +19,7 @@ const About: React.FC<AboutProps> = (props) => {
                     I am 26 years old and I live in the United States.
 		    I am very passionate about open source projects,Ferrari and photography.
 		    This is my personal website that I will use as my resume, feel free 
-		    to check out my blog as well on my other website{' '}
+		    to check out my blog on my other website :){' '}
                     <a
 		        rel="noreferrer"
                         target="_blank"
@@ -31,8 +31,9 @@ const About: React.FC<AboutProps> = (props) => {
                 </p>
                 <br />
                 <p>
-                    Thanks for taking the time to check this website out and a HUGE special thanks
-		    to Henry Heffernan.
+                    Thanks for taking the time to check my website out and a HUGE shout out to
+		    Henry Heffernan and Hugo. This website is made possible by those open source
+	    efforts. Please check them out to support! 
                     Feel free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
                     <a href="mailto:467487@pm.me">
@@ -57,7 +58,7 @@ const About: React.FC<AboutProps> = (props) => {
 		    inspired me from a young age and had a long lasting impact. 
 		    I love all aspects of creative design, from the actual art or
 		    item itself,to the material choices, the color palette, the 
-		    UI, the branding, the graphic design the execution, I love it all! 
+		    UI, the branding, the graphic design, the execution, I love it all! 
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -69,7 +70,15 @@ const About: React.FC<AboutProps> = (props) => {
                         </sub>
                     </p>
                 </div>
-
+		<p>
+		    My interest in photography started from a young age due to my grandpa.
+		He loves photography and always has a camera with him everywhere he goes.
+		As a christmas I recieved my first camera which was a Nikon D40x whcih I still
+		own and occassionally use to this day. I also own a Nikon D810 which he gave to 
+		me as well. I enjoy shooting random moments, architecture, and nature but I mostly
+		shoot automotive/motorsports.
+		</p>
+		<br />
                 <p>
                     I was always interested in technology and programming growing
 		    up but I didn't have access to explore those interests. My 
@@ -103,7 +112,7 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond programming I also enjoy motorsports, Ferrari, photography, 
+                            Beyond just programming I enjoy motorsports, Ferrari, photography, 
 			    mountain biking, hiking, exploring nature, drawing, graphic art designs,
 			    collecting model cars, collecting Ferrari books, watching movies and baking.
                         </p>

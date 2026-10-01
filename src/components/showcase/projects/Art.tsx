@@ -1,15 +1,12 @@
 import React from 'react';
 
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
-import gsts from '../../../assets/pictures/projects/art/gsts.png';
-
 export interface ArtProjectsProps {}
 
 const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
             <h1>In Developement</h1>
-            <h3>Current Projects and Inventions</h3>
+            <h3>Current Research and Developement Projects</h3>
             <br />
             <div className="text-block">
                 <p>
@@ -57,6 +54,34 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 		like big tech companies. I treat you like a customer not a product to harvest data from.
 		</p>
 		<br />
+		<h2>turtle</h2>
+		<br />
+		<p>
+		    Locally hosted CLI LLM coding assistant written in Rust. Turtle uses qwen3-coder with the
+		    30 billion parameter variant instead of a more powerful general model that has been quantized.
+		Quantized models can lead to more hallucations and this is the exact opposite of what we need for a
+		coding LLM assistant. This also helps with taking up less RAM on your machine however, it is still
+		recommended to run at least 32GB with turtle. Turtle is trained in many languaages such as C, C++, 
+		Jai, Zig, Bun, Typescript, HTML, Markdown, Javascript, Python, Rust, and Odin. Everything about turtle
+		can be confgured and changed to your liking, if you need more output tokens or more context then just change
+		it to meet your needs. Keep in mind doing so can also making the prompts take longer to finish but it can
+		be done. Personally I am not the biggest fan of LLM's however I think locally hosted LLM's is a better decision
+		than AI data centers. This was the whole idea behind turtle. Despite turtle being a bit slower compared to the
+		leading flagship models, it will be better off for us and the environment. I am constantly improving, tweaking,
+		documenting, and experimenting with turtle so feel free to follow along the progress on Github to use it for 
+		yourself.
+		</p>
+		<br />
+		<p>
+                    Check out the Github Repo for more information and how to use it :){' '}
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/ooofruitsnacks/turtle"
+                    >
+                        Click me to go to turtle :)
+                    </a>
+                </p>
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
     )

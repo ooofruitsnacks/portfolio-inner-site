@@ -1,11 +1,7 @@
 import React from 'react';
 // @ts-ignore
-import saga from '../../../assets/pictures/projects/software/saga.mp4';
-// @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
-import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
 export interface SoftwareProjectsProps {}
@@ -13,16 +9,14 @@ export interface SoftwareProjectsProps {}
 const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Software Projects</h1>
-            <h3>Programming, Developing, Engineering</h3>
+            <h1>Previous Projects</h1>
+            <h3>Previous projects of all sorts for you to check out :)</h3>
             <br />
             <p>
-                Below are some of my current, past, or favorite
-		projects of mine. I hope you enjoy! Feel free to 
-		email me if you want me to work with you on a project!
+                Below are some of my past and favorite projects of mine.
+		I hope you enjoy! Feel free to email me if you want me to work with you on a project!
+		I'm always open to helping others in their projects :)
             </p>
-            <br />
-            <ResumeDownload />
             <br />
             <div className="text-block">
                 <h2>a-creative.studio</h2>
@@ -128,7 +122,6 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </a>
                 </p>
             </div>
-            <ResumeDownload />
         </div>
     );
 };
