@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Colors from '../../constants/colors';
 import ShowcaseExplorer from '../applications/ShowcaseExplorer';
+//import DangerousDave from '../applications/DangerousDave';
 import Doom from '../applications/Doom';
 import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
@@ -48,6 +49,12 @@ const APPLICATIONS: {
         shortcutIcon: 'doomIcon',
         component: Doom,
     },
+    //dave: {
+        //key: 'dave',
+        //name: 'Dangerous Dave',
+        //shortcutIcon: 'daveIcon',
+        //component: DangerousDave,
+    //},
     scrabble: {
         key: 'scrabble',
         name: 'Scrabble',
