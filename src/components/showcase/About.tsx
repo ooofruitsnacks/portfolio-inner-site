@@ -115,13 +115,28 @@ const About: React.FC<AboutProps> = (props) => {
                             Beyond just programming I enjoy motorsports, Ferrari, photography, 
 			    mountain biking, hiking, exploring nature, drawing, graphic art designs,
 			    collecting model cars, collecting Ferrari books, watching movies and baking.
+			I also really enjoy Raspberry Pi projects and the entire idea of SBC projects. I 
+			currently own many Pi devices and work on many personal Pi projects!
                         </p>
                         <br />
+			<h3> Who I Support and Sponsor</h3>
                         <p>
-                            I also really enjoy Raspberry Pi projects and the entire idea of SBC projects.
-			    I currently own many Pi devices and work on many personal Pi projects! I take alot
-			    of inspiration from Jeff Geerling and I love his work.
-                        </p>
+                            As I said many times, I am very passionate about open source projects and supporting 
+			    them. I think it is important to help and donate to open source projects I use often,
+			    as a way to say thank you for all the maintainers and creators hard work. Without them 
+			there is no community, this is why I sponsor projects personally. 
+			<br />
+			Currently I am sponsoring:
+			<ul>
+			<li>Orion Browser since 2023</li>
+			<li>Kagi since 2023</li>
+			<li>Homebrew since 2026</li>
+			<li>Jellyfin since 2026</li>
+			<li>Jeff Geerling since 2026</li>
+			<li>Pewdiepie since 2026</li>
+			<li>Odin-lang since 2026</li>
+                        </ul>
+			</p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
