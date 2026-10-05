@@ -12,14 +12,14 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Owen Edwards</h3>
+            <h3>About | Hobbies | Interests | Sponsoring & Supporting</h3>
             <br />
             <div className="text-block">
                 <p>
                     I am 26 years old and I live in the United States.
 		    I am very passionate about open source projects,Ferrari and photography.
 		    This is my personal website that I will use as my resume, feel free 
-		    to check out my blog on my other website :){' '}
+		    to check out my blog on my other website{' '}
                     <a
 		        rel="noreferrer"
                         target="_blank"
@@ -81,7 +81,7 @@ const About: React.FC<AboutProps> = (props) => {
 		<br />
                 <p>
                     I was always interested in technology and programming growing
-		    up but I didn't have access to explore those interests. My 
+		    up but I did not have access to explore those interests. My 
 		    brother built his own PC when we were in middle school and I
 		    always thought that was really cool. Around that time I started
 		    to really fall in love with youtube and learning from random creators
@@ -91,12 +91,12 @@ const About: React.FC<AboutProps> = (props) => {
                 </p>
                 <br />
                 <p>
-                    I had a simple chromebook for a long time that I used to program
-		    but then my boss gave me their unused macbook and that was my first
-	            REAL laptop. That made my hobby for programming take off because it was
-		    much more powerful of a machine than my chromebook and it was perfect timing.
-		    My chromebook pooped on me and stopped working so I was in need of something,
-	            thanks Jerrianne and Otto for the laptop! (and Evan)
+                    I had a simple chromebook for a long time that my mom gave to me as a bday
+		gift. I used that laptop to the very extent until it pooped on me, by that time
+		it was not worth the money to repair the laptop so I started looking for new options.
+		It was perfect timing though because my boss gave me their unused macbook and that
+		changed everything for me. It is much more powerful than I am used to and it is my first
+		apple computer!
                 </p>
                 <br />
                 <br />
@@ -130,11 +130,13 @@ const About: React.FC<AboutProps> = (props) => {
 			<ul>
 			<li>Orion Browser since 2023</li>
 			<li>Kagi since 2023</li>
-			<li>Homebrew since 2026</li>
-			<li>Jellyfin since 2026</li>
-			<li>Jeff Geerling since 2026</li>
-			<li>Pewdiepie since 2026</li>
-			<li>Odin-lang since 2026</li>
+			<li>Homebrew since</li>
+			<li>Jellyfin since</li>
+			<li>Jeff Geerling</li>
+			<li>Pewdiepie</li>
+			<li>Dave Eddy</li>
+			<li>Odin-lang</li>
+			<li>UOAA-Ostomates</li>
                         </ul>
 			</p>
                     </div>
