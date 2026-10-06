@@ -3,7 +3,11 @@ import Colors from '../../constants/colors';
 import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
 import IndyCar from '../applications/IndyCar';
-import OregonTrail from '../applications/OregonTrail';
+import {
+    GrandPrix2,
+    DestructionDerby,
+    SimCity,
+} from '../applications/MoreDosGames';
 import ShutdownSequence from './ShutdownSequence';
 import ThisComputer from '../applications/ThisComputer';
 import Henordle from '../applications/Henordle';
@@ -37,12 +41,6 @@ const APPLICATIONS: {
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-    trail: {
-        key: 'trail',
-        name: 'The Oregon Trail',
-        shortcutIcon: 'trailIcon',
-        component: OregonTrail,
-    },
     doom: {
         key: 'doom',
         name: 'Doom',
@@ -55,6 +53,24 @@ const APPLICATIONS: {
         shortcutIcon: 'indycarIcon',
         component: IndyCar,
     },
+    grandprix2: {
+        key: 'grandprix2',
+        name: 'Grand Prix II',
+        shortcutIcon: 'windowGameIcon',
+        component: GrandPrix2,
+    },
+    destructionderby: {
+        key: 'destructionderby',
+        name: 'Destruction Derby',
+        shortcutIcon: 'windowGameIcon',
+        component: DestructionDerby,
+    },
+    simcity: {
+        key: 'simcity',
+        name: 'SimCity',
+        shortcutIcon: 'windowGameIcon',
+        component: SimCity,
+    },                                              
     scrabble: {
         key: 'scrabble',
         name: 'Scrabble',
@@ -232,22 +248,18 @@ const Desktop: React.FC<DesktopProps> = (props) => {
                 );
             })}
             <div style={styles.shortcuts}>
-                {shortcuts.map((shortcut, i) => {
-                    return (
-                        <div
-                            style={Object.assign({}, styles.shortcutContainer, {
-                                top: i * 104,
-                            })}
-                            key={shortcut.shortcutName}
-                        >
-                            <DesktopShortcut
-                                icon={shortcut.icon}
-                                shortcutName={shortcut.shortcutName}
-                                onOpen={shortcut.onOpen}
-                            />
-                        </div>
-                    );
-                })}
+                {shortcuts.map((shortcut) => (
+                    <div
+                        style={styles.shortcutContainer}
+                        key={shortcut.shortcutName}
+                    >
+                        <DesktopShortcut
+                            icon={shortcut.icon}
+                            shortcutName={shortcut.shortcutName}
+                            onOpen={shortcut.onOpen}
+                        />
+                    </div>
+                ))}
             </div>
             <Toolbar
                 windows={windows}
@@ -275,12 +287,28 @@ const styles: StyleSheetCSS = {
         backgroundColor: '#1d2e2f',
     },
     shortcutContainer: {
-        position: 'absolute',
+        position: 'relative',
+        width: 128,
+        height: 112,
     },
     shortcuts: {
         position: 'absolute',
         top: 16,
+        bottom: 64,
         left: 6,
+
+        display: 'grid',
+        gridAutoFlow: 'column',
+        gridTemplateRows: 'repeat(auto-fill, 112px)',
+        gridAutoColumns: '128px',
+        columnGap: 12,
+
+        alignContent: 'start',
+        justifyContent: 'start',
+
+        width: 'max-content',
+        maxWidth: 'calc(100% - 12px)',
+        overflowX: 'auto',
     },
     minimized: {
         pointerEvents: 'none',
