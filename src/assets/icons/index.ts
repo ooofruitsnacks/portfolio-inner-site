@@ -8,6 +8,7 @@ import computerSmall from './computerSmall.png';
 import myComputer from './myComputer.png';
 import showcaseIcon from './showcaseIcon.png';
 import doomIcon from './doomIcon.png';
+import indycarIcon from './indycarIcon.png';
 import henordleIcon from './henordleIcon.png';
 import credits from './credits.png';
 import volumeOn from './volumeOn.png';
@@ -28,6 +29,7 @@ const icons = {
     myComputer: myComputer,
     showcaseIcon: showcaseIcon,
     doomIcon: doomIcon,
+    indycarIcon: indycarIcon,
     volumeOn: volumeOn,
     volumeOff: volumeOff,
     credits: credits,
