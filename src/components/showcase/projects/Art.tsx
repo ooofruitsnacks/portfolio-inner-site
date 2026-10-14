@@ -63,6 +63,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 			normally require someone else to help you. No data is sent out to other companies, all your data stays
 			on your device and you remain in control. E2S needs access to so many things so it can perform tasks the
 			user requests. 
+		</p>
 		<br />
 		<h2>turtle</h2>
 		<br />
