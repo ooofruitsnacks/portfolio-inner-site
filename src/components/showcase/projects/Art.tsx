@@ -5,8 +5,8 @@ export interface ArtProjectsProps {}
 const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>In Developement</h1>
-            <h3>Current Research and Developement Projects</h3>
+            <h1>In Development</h1>
+            <h3>Current Research and Development Projects</h3>
             <br />
             <div className="text-block">
                 <p>
@@ -23,7 +23,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 		    as well! Thank you!
 		</p>
 	    </div>
-		<h2>Vision Assistant - Project E2S</h2>
+		<h2>E2S - Vision Assistant</h2>
 		<br />
 		<p>
 		    Project E2S is a personal passion project of mine aimed towards the blind 
@@ -53,6 +53,16 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 		or in the future. You could use your phone for something like this I'm sure but I'm not evil
 		like big tech companies. I treat you like a customer not a product to harvest data from.
 		</p>
+		<br />
+		<h2>E2S - IOS Version</h2>
+		<br />
+		<p>
+			There will also be an IOS version of E2S which is under current development. The IOS app
+			will be a personal assistant that can monitor your environement, perform tasks for you, interact
+			with other nearby devices and so much more. You will be able to accomplish complex tasks that would
+			normally require someone else to help you. No data is sent out to other companies, all your data stays
+			on your device and you remain in control. E2S needs access to so many things so it can perform tasks the
+			user requests. 
 		<br />
 		<h2>turtle</h2>
 		<br />

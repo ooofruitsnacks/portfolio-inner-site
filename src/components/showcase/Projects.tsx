@@ -94,7 +94,7 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     icon={software}
                     iconStyle={styles.computerIcon}
                     title="In Development"
-                    subtitle="CURRENT RESEARCH AND DEVELOPEMENT FOR FUTURE PROJECTS"
+                    subtitle="CURRENT RESEARCH AND DEVELOPMENT FOR FUTURE PROJECTS"
                     route="art"
                 />
             </div>
