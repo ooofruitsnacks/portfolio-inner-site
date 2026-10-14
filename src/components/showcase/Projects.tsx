@@ -69,10 +69,10 @@ const Projects: React.FC<ProjectsProps> = (props) => {
             <h3>Previous, Current, and Future Projects</h3>
             <br />
             <p>
-                Hello! Click through the different sections
+                Hello! Click through all the different sections
 		to explore what I'm working on, what's planned for the future,
 		and what has already been finished.
-		Enjoy!
+		Enjoy! 
             </p>
             <br />
             <div style={styles.projectLinksContainer}>
