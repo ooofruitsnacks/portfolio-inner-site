@@ -23,7 +23,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
 		    as well! Thank you!
 		</p>
 	    </div>
-		<h2>E2S - Vision Assistant</h2>
+		<h2>E2S Assistant</h2>
 		<br />
 		<p>
 		    Project E2S is a personal passion project of mine aimed towards the blind 
